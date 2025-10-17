@@ -33,7 +33,7 @@ void displayAccounts(struct Account* head) {
         return;
     }
 
-    printf("\n====== Account List ======\n");
+    printf("\n       Account List       \n");
     struct Account* temp = head;
     while (temp != NULL) {
         printf("Acc No:%d | Name:%s | Balance:%.2f\n", temp->acc_no, temp->name, temp->balance);
