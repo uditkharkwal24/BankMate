@@ -14,8 +14,7 @@ int main() {
 
     int choice;
     while (1) {
-        // Replacing mainMenu() with a simple text-based menu
-        printf("\n===== BANK MENU =====\n");
+        printf("\n       BANK MENU      \n");
         printf("1. Create Account\n");
         printf("2. Deposit Money\n");
         printf("3. Withdraw Money\n");
@@ -39,11 +38,11 @@ int main() {
                 break;
             case 5:
                 saveAccountsToFile(head);
-                printf("\nExiting... Data saved successfully.\n");
-                // closeGraphics(); // disabled
+                printf("\ndata saved successfully\n");
+                // closeGraphics(); 
                 return 0;
             default:
-                printf("\nInvalid choice! Try again.\n");
+                printf("\nInvalid choice! Try again\n");
         }
     }
 

@@ -8,7 +8,7 @@ struct Account {
     struct Account *next;
 };
 
-// Function prototypes
+
 struct Account* createAccount(struct Account *head);
 void displayAccounts(struct Account *head);
 struct Account* searchAccount(struct Account *head, int acc_no);
